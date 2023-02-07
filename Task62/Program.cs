@@ -46,7 +46,7 @@ void SpiralArray(int[,] arr)
             dy = 0;
             dx = -1; 
         }
-        else if (dy == 0)
+        else if (dx == -1)
         {
             dy = 1;
             dx = 0; 
